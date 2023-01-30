@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
-   <head>
-    <!-- Aqui estan todas las configuraciones necesarias para que la pagina funcione, aqui se pueden poner configuraciones
-    para que una pagina web sea encontrada en google, referencias a archivos externos, de que tamaño es la pagina web, 
-    configuro los tipos de navegadores. -->
-
-    <title>este es el titulo</title>
+<html lang="es"><!--Agregamos el idioma-->
+   <head> 
+        <!-- Aqui estan todas las configuraciones necesarias para que la pagina funcione, aqui se pueden poner configuraciones
+        para que una pagina web sea encontrada en google, referencias a archivos externos, de que tamaño es la pagina web, 
+        configuro los tipos de navegadores. -->
+        <meta charset="UTF-8"/> <!--esta configuracion sirve para configurar los caracteres especiales en el idioma, incluso emojis-->
+        <!--Como el ususario puede abrir mi pagina web desde cualquier navegador (nuevo o antiguo) hay que darle cierta configuracion
+        para que pueda desplegarse en navegadores antiguos, esto siempre se hace por defecto-->    
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <!--Esta configuación permite que la pagina se adapte a todo tipo de patallas, desde la mas grande hasta la mas pequeña-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>este es el titulo</title>
 
    </head>
    <body>
-        Aqui esta la estructura de la pagina web, todo el contenido
+    <!--Aqui esta la estructura de la pagina web, todo el contenido-->
+        <header></header>
+        <main>
+            <section>aqui es la seccion 1
+                <article>un articulo es para poner mucho texto
+                    <p>cada parrafo se separa con eetiquetas p</p>
+                    <h4>un pequeño titulo</h4>
+                    <p>otro parrafo</p>
+                </article>
+                <span>span es otra forma de mostrar texto, pero textos cortos, span no genera espacios arriba y abajo</span>
+            </section>
+
+            <section>cada pagina tiene una seccion diferente
+                <img src="media/Logo formato sticker.png" alt="logo hermes"/> <!--alt es una alternativa por si no aparece la foto-->
+            </section>
+            <section>
+                <h3>Formulario</h3>
+                <a href="formulario.html">CLICK AQUÍ</a>
+            </section>
+        </main>
+        <footer></footer>
    </body> 
 </html>
