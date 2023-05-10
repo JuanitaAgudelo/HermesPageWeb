@@ -1,0 +1,8 @@
+.navbar__container{
+    position: fixed;
+    height: 12vh;
+    width: 100vw;
+    top: 0;
+    background-color: rgba(165, 42, 42, 0.068);
+    
+}
